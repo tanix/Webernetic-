@@ -1,0 +1,100 @@
+body {
+	font-family: "Manrope", sans-serif;
+}
+.wrapper {
+	width: 1920px;
+	padding: 40px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	background: #EBF0FA;
+	border-radius: 10px;
+}
+
+.inner-wrapper {
+	width: 511px;
+	margin-left: 72px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 48px;
+	text-align: left;
+	color: #1F4284;
+
+}
+p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27.2px;
+	text-align: left;
+	color: #727272;
+}
+button {
+	position: relative;
+	width: 341px;
+	height: 68px;
+	box-sizing: border-box;
+	margin-top: 25px;
+	padding: 12px 12px 12px 24px;
+	border-radius: 60px;
+	border: none;
+	background: #244C98;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28.8px;
+	text-align: left;
+
+}
+button span {
+	display: inline-block;
+	position: absolute;
+    right: 10px;
+    box-sizing: border-box;
+    top: 50%;
+    margin-top: -22px;
+	width: 44px;
+	height: 44px;
+	padding: 4px;
+	border-radius: 40px;
+	background-color: #ffffff;
+	background-image: url('../images/arrow-up-right.png');
+	background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+
+}
+.col-2 img {
+	width: 910px;
+	height: 456px;
+	margin-right: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+	.wrapper {
+		width: 1440px;
+	}
+	.col-2 img {
+		width: 680px;
+		height: 456px;
+	}
+	h1 {
+		font-size: 26px;
+		line-height: 41.6px;
+	}
+	button span {
+		width: 36px;
+		height: 36px;
+		padding: 19px;
+		margin-top: -18px;
+		right: 15px;
+	}
+}
